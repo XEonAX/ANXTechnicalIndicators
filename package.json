@@ -1,6 +1,6 @@
 {
   "name": "@xeonax/anxtechnicalindicators",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Technical Indicators",
   "main": "dist/anxtechnicalindicators.js",
   "module": "dist/index.js",
@@ -99,7 +99,10 @@
     "Tweezer Bottom",
     "Cross Up",
     "Cross Down",
-    "Cross Over"
+    "Cross Over",
+    "Supertrend",
+    "HMA",
+    "Hull Moving Average"
   ],
   "author": {
     "name": "AEonAX"
@@ -108,7 +111,9 @@
     "github.com/anandanand84",
     "github.com/nenjotsu",
     "github.com/rylorin",
-    "github.com/duongtanthao79"
+    "github.com/duongtanthao79",
+    "github.com/CryptenseDev",
+    "github.com/chrismark"
   ],
   "scripts": {
     "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",

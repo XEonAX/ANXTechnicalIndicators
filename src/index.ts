@@ -10,6 +10,7 @@ export {
   WilderSmoothing,
 } from "./moving_averages/WilderSmoothing";
 export { macd, MACD } from "./moving_averages/MACD";
+export { hma, HMA } from "./moving_averages/HMA";
 export { rsi, RSI } from "./oscillators/RSI";
 export { bollingerbands, BollingerBands } from "./volatility/BollingerBands";
 export { adx, ADX } from "./directionalmovement/ADX";
@@ -20,6 +21,7 @@ export { kst, KST } from "./momentum/KST";
 export { psar, PSAR } from "./momentum/PSAR";
 export { stochastic, Stochastic } from "./momentum/Stochastic";
 export { williamsr, WilliamsR } from "./momentum/WilliamsR";
+export { supertrend, SuperTrend } from "./momentum/SuperTrend";
 export { adl, ADL } from "./volume/ADL";
 export { obv, OBV } from "./volume/OBV";
 export { trix, TRIX } from "./momentum/TRIX";
@@ -116,5 +118,6 @@ export {
 } from "./volatility/ChandelierExit";
 export { crossUp, CrossUp } from "./Utils/CrossUp";
 export { crossDown, CrossDown } from "./Utils/CrossDown";
+export { crossOver, CrossOver } from "./Utils/CrossOver";
 
 export { setConfig, getConfig } from "./config";
